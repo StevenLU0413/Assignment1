@@ -7,15 +7,12 @@ import java.awt.event.*;
 import java.io.*;
 import java.util.Random;
 import java.util.Scanner;
-import java.util.Arrays;
-import java.util.List;
-import java.util.ArrayList;
-import java.util.LinkedList;
+
 
 
 public class NBody extends JPanel implements ActionListener {
 
-	private List<Planet> planet_list;
+	private Lists<Planet> planet_list;
 	private double scale;
 	
 	public NBody(String file_input_name){
